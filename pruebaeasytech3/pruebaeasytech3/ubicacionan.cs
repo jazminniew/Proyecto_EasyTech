@@ -31,7 +31,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("UBICACIONNAN");
                 ventana.Show();
                 this.Hide();
             }
