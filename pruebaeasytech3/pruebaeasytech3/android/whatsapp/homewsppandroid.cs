@@ -155,19 +155,24 @@ namespace pruebaeasytech3
             if (valorRecibido == "llamadaan")
             {
                 formcorrecto ventana = new formcorrecto(valorRecibido);
+                MessageBox.Show("choco");
                 ventana.Show();
                 this.Hide();
+                return;
             }
 
-            else if (valorRecibido1 == "llamadaan1") 
+            else if (valorRecibido == "llamadaan1") 
             {
-                formcorrecto ventana = new formcorrecto(valorRecibido1);
+                formcorrecto ventana = new formcorrecto(valorRecibido, valorRecibido1);
+                MessageBox.Show("lala");
                 ventana.Show();
                 this.Hide();
+                return;
             }
 
             else
             {
+                MessageBox.Show("tete");
                 formincorrecto ventana = new formincorrecto("llamadaan");
                 ventana.Show();
                 this.Hide();
