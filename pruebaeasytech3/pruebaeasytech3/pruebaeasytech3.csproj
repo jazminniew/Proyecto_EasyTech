@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F244869-F61E-4268-8DC9-3B4EECA5E7F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>pruebaeasytech3</RootNamespace>
+    <AssemblyName>pruebaeasytech3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="android\whatsapp\homewsppandroid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="android\whatsapp\homewsppandroid.Designer.cs">
+      <DependentUpon>homewsppandroid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="archivosan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="archivosan.Designer.cs">
+      <DependentUpon>archivosan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camaraan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camaraan.Designer.cs">
+      <DependentUpon>camaraan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camaraenviaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camaraenviaran.Designer.cs">
+      <DependentUpon>camaraenviaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clip.Designer.cs">
+      <DependentUpon>clip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="contactoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contactoan.Designer.cs">
+      <DependentUpon>contactoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nombre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nombre.Designer.cs">
+      <DependentUpon>nombre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="documentosan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="documentosan.Designer.cs">
+      <DependentUpon>documentosan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="encuestaan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="encuestaan.Designer.cs">
+      <DependentUpon>encuestaan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enviarfotosan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enviarfotosan.Designer.cs">
+      <DependentUpon>enviarfotosan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="galeriaan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="galeriaan.Designer.cs">
+      <DependentUpon>galeriaan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\fijarfondo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\fijarfondo.Designer.cs">
+      <DependentUpon>fijarfondo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\compartircontactos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\compartircontactos.Designer.cs">
+      <DependentUpon>compartircontactos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\compartircontactosenviar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\compartircontactosenviar.Designer.cs">
+      <DependentUpon>compartircontactosenviar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\compartircontactosselect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\compartircontactosselect.Designer.cs">
+      <DependentUpon>compartircontactosselect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="correccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="correccion.Designer.cs">
+      <DependentUpon>correccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\abrirdocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\abrirdocumento.Designer.cs">
+      <DependentUpon>abrirdocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\encuesta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\encuesta.Designer.cs">
+      <DependentUpon>encuesta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\abajopersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\abajopersona.Designer.cs">
+      <DependentUpon>abajopersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\archivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\archivos.Designer.cs">
+      <DependentUpon>archivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\ayuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\ayuda.Designer.cs">
+      <DependentUpon>ayuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\bloquear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\bloquear.Designer.cs">
+      <DependentUpon>bloquear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\camara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\camara.Designer.cs">
+      <DependentUpon>camara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\camaraenviar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\camaraenviar.Designer.cs">
+      <DependentUpon>camaraenviar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\documentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\documentos.Designer.cs">
+      <DependentUpon>documentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="android\elegirappandroid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="android\elegirappandroid.Designer.cs">
+      <DependentUpon>elegirappandroid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\elegirappiphone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\elegirappiphone.Designer.cs">
+      <DependentUpon>elegirappiphone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\eligefondo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\eligefondo.Designer.cs">
+      <DependentUpon>eligefondo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\eligefondossss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\eligefondossss.Designer.cs">
+      <DependentUpon>eligefondossss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\enclances.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\enclances.Designer.cs">
+      <DependentUpon>enclances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\formcorrecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\formcorrecto.Designer.cs">
+      <DependentUpon>formcorrecto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\formincorrecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\formincorrecto.Designer.cs">
+      <DependentUpon>formincorrecto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\fotosvideoss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\fotosvideoss.Designer.cs">
+      <DependentUpon>fotosvideoss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\guardarfoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\guardarfoto.Designer.cs">
+      <DependentUpon>guardarfoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicio\home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio\home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicio\IND_instagram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio\IND_instagram.Designer.cs">
+      <DependentUpon>IND_instagram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\IND_whatsappiphone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\IND_whatsappiphone.Designer.cs">
+      <DependentUpon>IND_whatsappiphone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="android\configuracion\IN_configuracionandroid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="android\configuracion\IN_configuracionandroid.Designer.cs">
+      <DependentUpon>IN_configuracionandroid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\configuracion\IN_configuracioniphone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\configuracion\IN_configuracioniphone.Designer.cs">
+      <DependentUpon>IN_configuracioniphone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="android\whatsapp\IN_whatsappandroid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="android\whatsapp\IN_whatsappandroid.Designer.cs">
+      <DependentUpon>IN_whatsappandroid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\lolograste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\lolograste.Designer.cs">
+      <DependentUpon>lolograste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\maswsppiphone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\maswsppiphone.Designer.cs">
+      <DependentUpon>maswsppiphone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\multiplechoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\multiplechoice.Designer.cs">
+      <DependentUpon>multiplechoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\persona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\persona.Designer.cs">
+      <DependentUpon>persona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nombreabajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nombreabajo.Designer.cs">
+      <DependentUpon>nombreabajo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="inicio\seleccionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio\seleccionar.Designer.cs">
+      <DependentUpon>seleccionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicio\welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio\welcome.Designer.cs">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\homewspp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\homewspp.Designer.cs">
+      <DependentUpon>homewspp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\seleccionardocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\seleccionardocumento.Designer.cs">
+      <DependentUpon>seleccionardocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\silenciar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\silenciar.Designer.cs">
+      <DependentUpon>silenciar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\stickers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\stickers.Designer.cs">
+      <DependentUpon>stickers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\tocafondo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\tocafondo.Designer.cs">
+      <DependentUpon>tocafondo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\ubicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\ubicacion.Designer.cs">
+      <DependentUpon>ubicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iphone\whatsapp\vaciarchat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iphone\whatsapp\vaciarchat.Designer.cs">
+      <DependentUpon>vaciarchat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="puntos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="puntos.Designer.cs">
+      <DependentUpon>puntos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="silenciaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="silenciaran.Designer.cs">
+      <DependentUpon>silenciaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sticker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sticker.Designer.cs">
+      <DependentUpon>sticker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ubicacionan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ubicacionan.Designer.cs">
+      <DependentUpon>ubicacionan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="android\whatsapp\homewsppandroid.resx">
+      <DependentUpon>homewsppandroid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="archivosan.resx">
+      <DependentUpon>archivosan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camaraan.resx">
+      <DependentUpon>camaraan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camaraenviaran.resx">
+      <DependentUpon>camaraenviaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clip.resx">
+      <DependentUpon>clip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contactoan.resx">
+      <DependentUpon>contactoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nombre.resx">
+      <DependentUpon>nombre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="documentosan.resx">
+      <DependentUpon>documentosan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="encuestaan.resx">
+      <DependentUpon>encuestaan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enviarfotosan.resx">
+      <DependentUpon>enviarfotosan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="galeriaan.resx">
+      <DependentUpon>galeriaan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\fijarfondo.resx">
+      <DependentUpon>fijarfondo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\compartircontactos.resx">
+      <DependentUpon>compartircontactos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\compartircontactosenviar.resx">
+      <DependentUpon>compartircontactosenviar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\compartircontactosselect.resx">
+      <DependentUpon>compartircontactosselect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="correccion.resx">
+      <DependentUpon>correccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\abrirdocumento.resx">
+      <DependentUpon>abrirdocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\encuesta.resx">
+      <DependentUpon>encuesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\abajopersona.resx">
+      <DependentUpon>abajopersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\archivos.resx">
+      <DependentUpon>archivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\ayuda.resx">
+      <DependentUpon>ayuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\bloquear.resx">
+      <DependentUpon>bloquear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\camara.resx">
+      <DependentUpon>camara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\camaraenviar.resx">
+      <DependentUpon>camaraenviar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\documentos.resx">
+      <DependentUpon>documentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="android\elegirappandroid.resx">
+      <DependentUpon>elegirappandroid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\elegirappiphone.resx">
+      <DependentUpon>elegirappiphone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\eligefondo.resx">
+      <DependentUpon>eligefondo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\eligefondossss.resx">
+      <DependentUpon>eligefondossss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\enclances.resx">
+      <DependentUpon>enclances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\formcorrecto.resx">
+      <DependentUpon>formcorrecto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\formincorrecto.resx">
+      <DependentUpon>formincorrecto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\fotosvideoss.resx">
+      <DependentUpon>fotosvideoss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\guardarfoto.resx">
+      <DependentUpon>guardarfoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio\home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio\IND_instagram.resx">
+      <DependentUpon>IND_instagram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\IND_whatsappiphone.resx">
+      <DependentUpon>IND_whatsappiphone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="android\configuracion\IN_configuracionandroid.resx">
+      <DependentUpon>IN_configuracionandroid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\configuracion\IN_configuracioniphone.resx">
+      <DependentUpon>IN_configuracioniphone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="android\whatsapp\IN_whatsappandroid.resx">
+      <DependentUpon>IN_whatsappandroid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\lolograste.resx">
+      <DependentUpon>lolograste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\maswsppiphone.resx">
+      <DependentUpon>maswsppiphone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\multiplechoice.resx">
+      <DependentUpon>multiplechoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\persona.resx">
+      <DependentUpon>persona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nombreabajo.resx">
+      <DependentUpon>nombreabajo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="inicio\seleccionar.resx">
+      <DependentUpon>seleccionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio\welcome.resx">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\homewspp.resx">
+      <DependentUpon>homewspp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\seleccionardocumento.resx">
+      <DependentUpon>seleccionardocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\silenciar.resx">
+      <DependentUpon>silenciar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\stickers.resx">
+      <DependentUpon>stickers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\tocafondo.resx">
+      <DependentUpon>tocafondo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\ubicacion.resx">
+      <DependentUpon>ubicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iphone\whatsapp\vaciarchat.resx">
+      <DependentUpon>vaciarchat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="puntos.resx">
+      <DependentUpon>puntos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="silenciaran.resx">
+      <DependentUpon>silenciaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sticker.resx">
+      <DependentUpon>sticker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ubicacionan.resx">
+      <DependentUpon>ubicacionan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\like.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enviar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
