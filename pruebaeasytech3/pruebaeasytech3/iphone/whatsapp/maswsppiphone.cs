@@ -30,7 +30,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("ENCUESTA");
                 ventana.Show();
                 this.Hide();
             }
@@ -46,7 +46,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("CONTACTO");
                 ventana.Show();
                 this.Hide();
             }
@@ -62,7 +62,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("Ubicacion");
                 ventana.Show();
                 this.Hide();
             }
@@ -78,7 +78,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("Documentos");
                 ventana.Show();
                 this.Hide();
             }
@@ -96,7 +96,7 @@ namespace pruebaeasytech3
            
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("fotosyvideos");
                 ventana.Show();
                 this.Hide();
             }
@@ -112,7 +112,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("camara");
                 ventana.Show();
                 this.Hide();
             }
@@ -120,7 +120,7 @@ namespace pruebaeasytech3
 
         private void btncancelar_Click(object sender, EventArgs e)
         {
-            formincorrecto ventana = new formincorrecto("");
+            formincorrecto ventana = new formincorrecto(""); //que pongo?
             ventana.Show();
             this.Hide();
         }

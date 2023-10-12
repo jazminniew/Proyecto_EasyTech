@@ -30,7 +30,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("videollamadaan");
+                formincorrecto ventana = new formincorrecto("SILENCIARRAN");
                 ventana.Show();
                 this.Hide();
             }

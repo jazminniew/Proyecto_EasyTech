@@ -13,6 +13,7 @@ namespace pruebaeasytech3
     public partial class IND_whatsappiphone : Form
     {
         string valor;
+        string valorindice;
 
         public IND_whatsappiphone()
          
@@ -28,10 +29,12 @@ namespace pruebaeasytech3
 
         private void btnvideollamada_Click(object sender, EventArgs e)
         {
-            string valor = "videollamada";
-            homewspp ventana = new homewspp(valor);
+            string valorindice = "videollamada";   //cambiado de valor a valorindice       
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
              this.Hide();
+
+         
         }
 
         private void btnllamada_Click(object sender, EventArgs e)

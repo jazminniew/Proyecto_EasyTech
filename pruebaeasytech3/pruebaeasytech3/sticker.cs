@@ -31,7 +31,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("STICKERS");
                 ventana.Show();
                 this.Hide();
             }

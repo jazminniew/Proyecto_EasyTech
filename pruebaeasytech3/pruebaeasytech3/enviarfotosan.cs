@@ -38,7 +38,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("DOCUMENTOSSSAN");
                 ventana.Show();
                 this.Hide();
             }

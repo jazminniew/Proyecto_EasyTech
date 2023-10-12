@@ -19,11 +19,11 @@ namespace pruebaeasytech3
         string valorchoice;
         
         
-        public multiplechoice(string valor)
+        public multiplechoice(string valorindice)
         {
             InitializeComponent();
             
-            valorchoice = valor; //aca debe ver algo mall //abrir formincorrecto y IND_wspp
+            valorchoice = valorindice; 
             
         }
 
@@ -34,10 +34,10 @@ namespace pruebaeasytech3
 
         private void multiplechoice_Load(object sender, EventArgs e)
         {
-            if(valorchoice == "llamada"){
+            if (valorchoice == "llamada")
+            {
                 askQuestion(1);
             }
-
             if (valorchoice == "videollamada")
             {
                 askQuestion(2);
@@ -47,6 +47,7 @@ namespace pruebaeasytech3
             {
                 askQuestion(3);
             }
+            
         }
 
         private void askQuestion(int qnum)
@@ -93,7 +94,7 @@ namespace pruebaeasytech3
             int buttonTag = Convert.ToInt32(senderObject.Tag);
             if (buttonTag == correctAnswer)
             {
-
+               
                 lolograste ventana = new lolograste();
                 ventana.Show();
                 this.Hide();

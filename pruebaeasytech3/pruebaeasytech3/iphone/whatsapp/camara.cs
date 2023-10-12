@@ -34,7 +34,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("CAMARA");
                 ventana.Show();
                 this.Hide();
             }

@@ -40,7 +40,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("BUUSCAR");
                 ventana.Show();
                 this.Hide();
             }
@@ -59,7 +59,7 @@ namespace pruebaeasytech3
 
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("DEESTACADOS");
                 ventana.Show();
                 this.Hide();
             }
@@ -77,7 +77,7 @@ namespace pruebaeasytech3
 
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("SIILENCIAR");
                 ventana.Show();
                 this.Hide();
             }
@@ -95,7 +95,7 @@ namespace pruebaeasytech3
 
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("GUUARDARFOTTO");
                 ventana.Show();
                 this.Hide();
             }
@@ -125,7 +125,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("VACIAR1");
                 ventana.Show();
                 this.Hide();
             }
@@ -167,7 +167,7 @@ namespace pruebaeasytech3
 
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("DOCS1");
                 ventana.Show();
                 this.Hide();
             }
@@ -185,7 +185,7 @@ namespace pruebaeasytech3
 
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("FONDOPANTALLA1");
                 ventana.Show();
                 this.Hide();
             }

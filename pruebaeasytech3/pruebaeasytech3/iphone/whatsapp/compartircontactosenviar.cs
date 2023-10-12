@@ -30,7 +30,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("CONTACTOOOO");
                 ventana.Show();
                 this.Hide();
             }

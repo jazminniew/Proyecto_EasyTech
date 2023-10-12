@@ -14,25 +14,24 @@ namespace pruebaeasytech3
     {
         string valorRecibido;
             
-        public homewspp(string valor)
+        public homewspp(string valorindice)
         {
             InitializeComponent();
-            valorRecibido = valor;
+            valorRecibido = valorindice;
         }
         
         private void btnvideollamada_Click(object sender, EventArgs e)
         {
-
             
             if (valorRecibido == "videollamada")
             {
-                formcorrecto ventana = new formcorrecto(valorRecibido);
+                formcorrecto ventana = new formcorrecto("videollamada");
                 ventana.Show();
                 this.Hide();
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("videollamada");
                 ventana.Show();
                 this.Hide();
             }
@@ -48,13 +47,13 @@ namespace pruebaeasytech3
         {
             if (valorRecibido == "llamada")
             {
-                formcorrecto ventana = new formcorrecto(valorRecibido);
+                formcorrecto ventana = new formcorrecto("llamada");
                 ventana.Show();
                 this.Hide();
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("llamada");
                 ventana.Show();
                 this.Hide();
             }
@@ -71,7 +70,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("camara");
                 ventana.Show();
                 this.Hide();
             }
@@ -87,7 +86,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
             }
@@ -103,7 +102,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
             }
@@ -123,7 +122,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto(""); //COMO PASO TANTOS VALORES INCORRECTOS?
                 ventana.Show();
                 this.Hide();
             }
@@ -205,7 +204,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("DOCS");
                 ventana.Show();
                 this.Hide();
             }

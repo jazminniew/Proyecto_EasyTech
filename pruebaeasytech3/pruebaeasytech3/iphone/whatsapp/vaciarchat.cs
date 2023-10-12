@@ -36,7 +36,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("VACIAR3");
                 ventana.Show();
                 this.Hide();
             }

@@ -32,7 +32,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("GALERIAAAN");
                 ventana.Show();
                 this.Hide();
             }

@@ -23,7 +23,7 @@ namespace pruebaeasytech3
         {
             if (valorRecibido == "BLOQUEAR1" || valorRecibido == "VACIAR1")
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("BLOQEUAR1"); //falta vaciar1
                 ventana.Show();
                 this.Hide();
             }            
@@ -46,7 +46,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("BLOQEUAR15");
                 ventana.Show();
                 this.Hide();
             }
@@ -63,7 +63,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("VACIAR2");
                 ventana.Show();
                 this.Hide();
             }

@@ -12,11 +12,11 @@ namespace pruebaeasytech3
 {
     public partial class formincorrecto : Form
     {
-        public string valorincorrecto;
-        public formincorrecto(string valor)//de donde viene valor indice?
+        public string valorcorrecto;
+        public formincorrecto(string valorindice)
         {
             InitializeComponent();
-            valorincorrecto = valor;
+            valorcorrecto = valorindice;
         }
 
         private void formincorrecto_Load(object sender, EventArgs e)
@@ -26,46 +26,46 @@ namespace pruebaeasytech3
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-           if (valorincorrecto == "videollamada")
+           if (valorcorrecto == "videollamada")
            {
                 multiplechoice ventana = new multiplechoice("videollamada");
                 ventana.Show();
-                this.Hide();
+                this.Close();
            }
 
-           else if (valorincorrecto == "llamada")
+           else if (valorcorrecto == "llamada")
             {
                 multiplechoice ventana = new multiplechoice("llamada");
                 ventana.Show();
-                this.Hide(); //si yo pongo aca que habra multiple choice porque no habre?
+                this.Close(); 
 
             }
 
-            else if (valorincorrecto == "camara")
+            else if (valorcorrecto == "camara")
             {
-                multiplechoice ventana = new multiplechoice("llamada");
+                multiplechoice ventana = new multiplechoice("camara");
                 ventana.Show();
-                this.Hide();
+                this.Close();
 
             }
-            else if (valorincorrecto == "sticker")
+            else if (valorcorrecto == "sticker")
             {
                 multiplechoice ventana = new multiplechoice("sticker");
                 ventana.Show();
-                this.Hide();
+                this.Close();
 
-            }
-            else if (valorincorrecto == "audio")
+           }
+            else if (valorcorrecto == "audio")
             {
                 multiplechoice ventana = new multiplechoice("audio");
                 ventana.Show();
-                this.Hide();
+                this.Close();
 
             }
             else
             {
-                Form f1 = new home();
-                f1.Show();
+                multiplechoice ventana = new multiplechoice("audio");
+                ventana.Show();
                 this.Close();
             }
             

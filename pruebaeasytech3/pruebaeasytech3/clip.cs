@@ -30,7 +30,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("GALERIAAN");
                 ventana.Show();
                 this.Hide();
             }
@@ -47,7 +47,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("DOCUMENTOSAN");
                 ventana.Show();
                 this.Hide();
             }
@@ -74,7 +74,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("UBICACIONAN");
                 ventana.Show();
                 this.Hide();
             }
@@ -91,7 +91,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("CONTACTOAN");
                 ventana.Show();
                 this.Hide();
             }
@@ -108,7 +108,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("ENCUESTAAN");
                 ventana.Show();
                 this.Hide();
             }

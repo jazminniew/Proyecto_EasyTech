@@ -127,7 +127,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("encuestaan");
                 ventana.Show();
                 this.Hide();
             }
@@ -238,7 +238,7 @@ namespace pruebaeasytech3
            
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("archivosan");
                 ventana.Show();
                 this.Hide();
             }

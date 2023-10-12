@@ -30,7 +30,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("BUSCARAN");
                 ventana.Show();
                 this.Hide();
             }
@@ -62,7 +62,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("DOCSAN");
                 ventana.Show();
                 this.Hide();
             }
@@ -84,7 +84,7 @@ namespace pruebaeasytech3
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("");
+                formincorrecto ventana = new formincorrecto("SILENCIARAN");
                 ventana.Show();
                 this.Hide();
             }
