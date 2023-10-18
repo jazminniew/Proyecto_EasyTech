@@ -12,8 +12,8 @@ namespace pruebaeasytech3
 {
     public partial class IND_whatsappiphone : Form
     {
-        string valor;
-        string valorindice;
+        
+        public static string valorindice;
 
         public IND_whatsappiphone()
          
@@ -29,7 +29,7 @@ namespace pruebaeasytech3
 
         private void btnvideollamada_Click(object sender, EventArgs e)
         {
-            string valorindice = "videollamada";   //cambiado de valor a valorindice       
+            valorindice = "videollamada";   //cambiado de valor a valorindice       
             homewspp ventana = new homewspp(valorindice);
             ventana.Show();
              this.Hide();
@@ -39,157 +39,176 @@ namespace pruebaeasytech3
 
         private void btnllamada_Click(object sender, EventArgs e)
         {
-             string valor = "llamada";
-             homewspp ventana = new homewspp(valor);
+             valorindice = "llamada";
+             homewspp ventana = new homewspp(valorindice);
              ventana.Show();
              this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btncamara_Click(object sender, EventArgs e)
         {
-             string valor = "camara"; 
-             homewspp ventana = new homewspp(valor);
+             valorindice = "camara"; 
+             homewspp ventana = new homewspp(valorindice);
              ventana.Show();
              this.Hide();
+             formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btnfotosvideos_Click(object sender, EventArgs e)
         {
-            string valor = "fotosvideos";
-            homewspp ventana = new homewspp(valor);
+            valorindice = "fotosvideos";
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
-            this.Hide();            
+            this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btndocumentos_Click(object sender, EventArgs e)
         {
-            string valor = "documentos"; 
-            homewspp ventana = new homewspp(valor);
+            valorindice = "documentos"; 
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
-            this.Hide();            
+            this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btnubicacion_Click(object sender, EventArgs e)
         {
-            string valor = "ubicacion";
-            homewspp ventana = new homewspp(valor);
+            valorindice = "ubicacion";
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
-            this.Hide();            
+            this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btncontacto_Click(object sender, EventArgs e)
         {
-             string valor = "contacto"; 
-            homewspp ventana = new homewspp(valor);
+            valorindice = "contacto"; 
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
-            this.Hide();            
+            this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btnencuesta_Click(object sender, EventArgs e)
         {
-             string valor = "encuesta"; 
-            homewspp ventana = new homewspp(valor);
+            valorindice = "encuesta"; 
+            homewspp ventana = new homewspp(valorindice);
              ventana.Show();
-             this.Hide();            
+             this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
+
         }
 
         private void btnsticker_Click(object sender, EventArgs e)
         {
-              string valor = "sticker";
-              homewspp ventana = new homewspp(valor);
+               valorindice = "sticker";
+              homewspp ventana = new homewspp(valorindice);
               ventana.Show();
               this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btnaudio_Click(object sender, EventArgs e)
         {
-             string valor = "audio";
-             homewspp ventana = new homewspp(valor);
+             valorindice = "audio";
+             homewspp ventana = new homewspp(valorindice);
              ventana.Show();
               this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btnbuscar_Click(object sender, EventArgs e)
         {
-            string valor = "buscar";
-            homewspp ventana = new homewspp(valor);
+            valorindice = "buscar";
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
             this.Hide();
-           
+            formincorrecto form = new formincorrecto(valorindice);
+
         }
 
         private void btnarchivos_Click(object sender, EventArgs e)
         {
             
-             string valor = "archivos"; 
-             homewspp ventana = new homewspp("archivos");
+             valorindice = "archivos"; 
+             homewspp ventana = new homewspp(valorindice);
              ventana.Show();
-             this.Hide();            
+             this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btnenclances_Click(object sender, EventArgs e)
         {            
-             string valor = "enclances"; 
-             homewspp ventana = new homewspp("enclances");
+            valorindice = "enclances"; 
+             homewspp ventana = new homewspp(valorindice);
              ventana.Show();
-             this.Hide();            
+             this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btndocs_Click(object sender, EventArgs e)
         {
-             string valor = "docs"; 
-             homewspp ventana = new homewspp("docs");
+             valorindice = "docs"; 
+             homewspp ventana = new homewspp(valorindice);
              ventana.Show();
-             this.Hide();            
+             this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btndestacados_Click(object sender, EventArgs e)
         {
-            string valor = "destacados";
-            homewspp ventana = new homewspp(valor);
+            valorindice = "destacados";
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
-            this.Hide();            
+            this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btnsilenciar_Click(object sender, EventArgs e)
         {
-             string valor = "silenciar";
-             homewspp ventana = new homewspp(valor);
+              valorindice = "silenciar";
+             homewspp ventana = new homewspp(valorindice);
              ventana.Show();
-             this.Hide();            
+             this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btnfondopantalla_Click(object sender, EventArgs e)
         {         
-            string valor = "fondopantalla";
-            homewspp ventana = new homewspp(valor);
+            valorindice = "fondopantalla";
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
             this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
         private void btnguardarfoto_Click(object sender, EventArgs e)
         {
-            string valor = "guardarfoto";
-            homewspp ventana = new homewspp(valor);
+            valorindice = "guardarfoto";
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
-            this.Hide();            
+            this.Hide();
+            formincorrecto form = new formincorrecto(valorindice);
         }
 
 
         private void btnbloquear_Click(object sender, EventArgs e)
         {
             
-            string valor = "bloquear";
-            homewspp ventana = new homewspp(valor);
+            valorindice = "bloquear";
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
             this.Hide();
-           
+            formincorrecto form = new formincorrecto(valorindice);
+
         }
 
         private void btnvaciar_Click(object sender, EventArgs e)
         {
-            string valor = "vaciar";
-            homewspp ventana = new homewspp(valor);
+            valorindice = "vaciar";
+            homewspp ventana = new homewspp(valorindice);
             ventana.Show();
             this.Hide();
             

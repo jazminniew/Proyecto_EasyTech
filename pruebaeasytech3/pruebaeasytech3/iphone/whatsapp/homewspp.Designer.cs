@@ -29,7 +29,7 @@ namespace pruebaeasytech3
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
             this.btnmas = new System.Windows.Forms.Button();
             this.btnsticker = new System.Windows.Forms.Button();
             this.btncamara = new System.Windows.Forms.Button();
@@ -40,15 +40,15 @@ namespace pruebaeasytech3
             this.btnatras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
-            this.label1.Location = new System.Drawing.Point(114, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(601, 29);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Toca el boton que creas que va a cumplir la funcion:";
+            this.lbl1.AutoSize = true;
+            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
+            this.lbl1.Location = new System.Drawing.Point(114, 22);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(601, 29);
+            this.lbl1.TabIndex = 0;
+            this.lbl1.Text = "Toca el boton que creas que va a cumplir la funcion:";
             // 
             // btnmas
             // 
@@ -143,7 +143,7 @@ namespace pruebaeasytech3
             this.Controls.Add(this.btncamara);
             this.Controls.Add(this.btnsticker);
             this.Controls.Add(this.btnmas);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl1);
             this.Name = "homewspp";
             this.Text = "xx";
             this.Load += new System.EventHandler(this.WS_videollamada_Load);
@@ -154,7 +154,7 @@ namespace pruebaeasytech3
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.Button btnmas;
         private System.Windows.Forms.Button btnsticker;
         private System.Windows.Forms.Button btncamara;

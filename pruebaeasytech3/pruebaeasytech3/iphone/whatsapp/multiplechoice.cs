@@ -14,9 +14,8 @@ namespace pruebaeasytech3
     {
 
         //variables
-
-        int correctAnswer;
         string valorchoice;
+        int correctAnswer;   
         
         
         public multiplechoice(string valorindice)
@@ -32,22 +31,25 @@ namespace pruebaeasytech3
 
         }
 
-        private void multiplechoice_Load(object sender, EventArgs e)
+        private void checkAnswerEvent(object sender, EventArgs e)
         {
-            if (valorchoice == "llamada")
+            var senderObject = (Button)sender;
+            int buttonTag = Convert.ToInt32(senderObject.Tag);
+            if (buttonTag == correctAnswer)
             {
-                askQuestion(1);
-            }
-            if (valorchoice == "videollamada")
-            {
-                askQuestion(2);
+
+                lolograste ventana = new lolograste();
+                ventana.Show();
+                this.Hide();
             }
 
-            if (valorchoice == "camara")
+            else
             {
-                askQuestion(3);
+                correccion ventana = new correccion();
+                ventana.Show();
+                this.Hide();
             }
-            
+
         }
 
         private void askQuestion(int qnum)
@@ -56,11 +58,11 @@ namespace pruebaeasytech3
             switch (qnum)
             {
                 case 1:
-                   
+
                     lblQuestion.Text = "Cual es la respuesta correcta?";
                     button1.Text = "llamada";
                     button2.Text = "videollamada";
-                    button3.Text = "sticker";                   
+                    button3.Text = "sticker";
 
                     correctAnswer = 1;
                     break;
@@ -87,25 +89,26 @@ namespace pruebaeasytech3
 
             }
         }
-
-        private void checkAnswerEvent(object sender, EventArgs e)
+        private void multiplechoice_Load(object sender, EventArgs e)
         {
-            var senderObject = (Button)sender;
-            int buttonTag = Convert.ToInt32(senderObject.Tag);
-            if (buttonTag == correctAnswer)
+            if (valorchoice == "llamada")
             {
-               
-                lolograste ventana = new lolograste();
-                ventana.Show();
-                this.Hide();
+                askQuestion(1);
+            }
+            if (valorchoice == "videollamada")
+            {
+                askQuestion(2);
             }
 
-            else {
-                correccion ventana = new correccion();
-                ventana.Show();
-                this.Hide();
+            if (valorchoice == "camara")
+            {
+                askQuestion(3);
             }
-
+            
         }
+
+      
+
+      
     }
 }

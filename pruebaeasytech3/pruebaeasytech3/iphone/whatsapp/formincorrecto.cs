@@ -9,31 +9,37 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace pruebaeasytech3
+
 {
     public partial class formincorrecto : Form
     {
-        public string valorcorrecto;
+        public string valorincorrecto;
         public formincorrecto(string valorindice)
         {
             InitializeComponent();
-            valorcorrecto = valorindice;
+            valorincorrecto = valorindice;
         }
+        public int Interval { get; private set; }
 
         private void formincorrecto_Load(object sender, EventArgs e)
         {
-            timer1.Enabled = true;
+            timer1.Interval = 2000;
+            timer1.Start();
         }
+
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-           if (valorcorrecto == "videollamada")
+            timer1.Stop();
+
+            if (valorincorrecto == "videollamada")
            {
                 multiplechoice ventana = new multiplechoice("videollamada");
                 ventana.Show();
                 this.Close();
            }
 
-           else if (valorcorrecto == "llamada")
+           else if (valorincorrecto == "llamada")
             {
                 multiplechoice ventana = new multiplechoice("llamada");
                 ventana.Show();
@@ -41,21 +47,21 @@ namespace pruebaeasytech3
 
             }
 
-            else if (valorcorrecto == "camara")
+            else if (valorincorrecto == "camara")
             {
                 multiplechoice ventana = new multiplechoice("camara");
                 ventana.Show();
                 this.Close();
 
             }
-            else if (valorcorrecto == "sticker")
+            else if (valorincorrecto == "sticker")
             {
                 multiplechoice ventana = new multiplechoice("sticker");
                 ventana.Show();
                 this.Close();
 
            }
-            else if (valorcorrecto == "audio")
+            else if (valorincorrecto == "audio")
             {
                 multiplechoice ventana = new multiplechoice("audio");
                 ventana.Show();
