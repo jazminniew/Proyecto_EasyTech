@@ -52,64 +52,64 @@
     <Compile Include="android\whatsapp\homewsppandroid.Designer.cs">
       <DependentUpon>homewsppandroid.cs</DependentUpon>
     </Compile>
-    <Compile Include="archivosan.cs">
+    <Compile Include="android\whatsapp\archivosan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="archivosan.Designer.cs">
+    <Compile Include="android\whatsapp\archivosan.Designer.cs">
       <DependentUpon>archivosan.cs</DependentUpon>
     </Compile>
-    <Compile Include="camaraan.cs">
+    <Compile Include="android\whatsapp\camaraan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="camaraan.Designer.cs">
+    <Compile Include="android\whatsapp\camaraan.Designer.cs">
       <DependentUpon>camaraan.cs</DependentUpon>
     </Compile>
-    <Compile Include="camaraenviaran.cs">
+    <Compile Include="android\whatsapp\camaraenviaran.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="camaraenviaran.Designer.cs">
+    <Compile Include="android\whatsapp\camaraenviaran.Designer.cs">
       <DependentUpon>camaraenviaran.cs</DependentUpon>
     </Compile>
-    <Compile Include="clip.cs">
+    <Compile Include="android\whatsapp\clip.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="clip.Designer.cs">
+    <Compile Include="android\whatsapp\clip.Designer.cs">
       <DependentUpon>clip.cs</DependentUpon>
     </Compile>
-    <Compile Include="contactoan.cs">
+    <Compile Include="android\configuracion\contactoan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="contactoan.Designer.cs">
+    <Compile Include="android\configuracion\contactoan.Designer.cs">
       <DependentUpon>contactoan.cs</DependentUpon>
     </Compile>
-    <Compile Include="nombre.cs">
+    <Compile Include="android\whatsapp\nombre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="nombre.Designer.cs">
+    <Compile Include="android\whatsapp\nombre.Designer.cs">
       <DependentUpon>nombre.cs</DependentUpon>
     </Compile>
-    <Compile Include="documentosan.cs">
+    <Compile Include="android\whatsapp\documentosan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="documentosan.Designer.cs">
+    <Compile Include="android\whatsapp\documentosan.Designer.cs">
       <DependentUpon>documentosan.cs</DependentUpon>
     </Compile>
-    <Compile Include="encuestaan.cs">
+    <Compile Include="android\whatsapp\encuestaan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="encuestaan.Designer.cs">
+    <Compile Include="android\whatsapp\encuestaan.Designer.cs">
       <DependentUpon>encuestaan.cs</DependentUpon>
     </Compile>
-    <Compile Include="enviarfotosan.cs">
+    <Compile Include="android\whatsapp\enviarfotosan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="enviarfotosan.Designer.cs">
+    <Compile Include="android\whatsapp\enviarfotosan.Designer.cs">
       <DependentUpon>enviarfotosan.cs</DependentUpon>
     </Compile>
-    <Compile Include="galeriaan.cs">
+    <Compile Include="android\whatsapp\galeriaan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="galeriaan.Designer.cs">
+    <Compile Include="android\whatsapp\galeriaan.Designer.cs">
       <DependentUpon>galeriaan.cs</DependentUpon>
     </Compile>
     <Compile Include="iphone\whatsapp\fijarfondo.cs">
@@ -136,10 +136,10 @@
     <Compile Include="iphone\whatsapp\compartircontactosselect.Designer.cs">
       <DependentUpon>compartircontactosselect.cs</DependentUpon>
     </Compile>
-    <Compile Include="correccion.cs">
+    <Compile Include="android\whatsapp\correccion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="correccion.Designer.cs">
+    <Compile Include="android\whatsapp\correccion.Designer.cs">
       <DependentUpon>correccion.cs</DependentUpon>
     </Compile>
     <Compile Include="iphone\whatsapp\abrirdocumento.cs">
@@ -196,10 +196,10 @@
     <Compile Include="iphone\whatsapp\documentos.Designer.cs">
       <DependentUpon>documentos.cs</DependentUpon>
     </Compile>
-    <Compile Include="android\elegirappandroid.cs">
+    <Compile Include="android\whatsapp\elegirappandroid.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="android\elegirappandroid.Designer.cs">
+    <Compile Include="android\whatsapp\elegirappandroid.Designer.cs">
       <DependentUpon>elegirappandroid.cs</DependentUpon>
     </Compile>
     <Compile Include="iphone\elegirappiphone.cs">
@@ -310,10 +310,10 @@
     <Compile Include="iphone\whatsapp\persona.Designer.cs">
       <DependentUpon>persona.cs</DependentUpon>
     </Compile>
-    <Compile Include="nombreabajo.cs">
+    <Compile Include="android\whatsapp\nombreabajo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="nombreabajo.Designer.cs">
+    <Compile Include="android\whatsapp\nombreabajo.Designer.cs">
       <DependentUpon>nombreabajo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -372,61 +372,61 @@
     <Compile Include="iphone\whatsapp\vaciarchat.Designer.cs">
       <DependentUpon>vaciarchat.cs</DependentUpon>
     </Compile>
-    <Compile Include="puntos.cs">
+    <Compile Include="android\whatsapp\puntos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="puntos.Designer.cs">
+    <Compile Include="android\whatsapp\puntos.Designer.cs">
       <DependentUpon>puntos.cs</DependentUpon>
     </Compile>
-    <Compile Include="silenciaran.cs">
+    <Compile Include="android\whatsapp\silenciaran.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="silenciaran.Designer.cs">
+    <Compile Include="android\whatsapp\silenciaran.Designer.cs">
       <DependentUpon>silenciaran.cs</DependentUpon>
     </Compile>
-    <Compile Include="sticker.cs">
+    <Compile Include="android\whatsapp\sticker.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="sticker.Designer.cs">
+    <Compile Include="android\whatsapp\sticker.Designer.cs">
       <DependentUpon>sticker.cs</DependentUpon>
     </Compile>
-    <Compile Include="ubicacionan.cs">
+    <Compile Include="android\whatsapp\ubicacionan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ubicacionan.Designer.cs">
+    <Compile Include="android\whatsapp\ubicacionan.Designer.cs">
       <DependentUpon>ubicacionan.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="android\whatsapp\homewsppandroid.resx">
       <DependentUpon>homewsppandroid.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="archivosan.resx">
+    <EmbeddedResource Include="android\whatsapp\archivosan.resx">
       <DependentUpon>archivosan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="camaraan.resx">
+    <EmbeddedResource Include="android\whatsapp\camaraan.resx">
       <DependentUpon>camaraan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="camaraenviaran.resx">
+    <EmbeddedResource Include="android\whatsapp\camaraenviaran.resx">
       <DependentUpon>camaraenviaran.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="clip.resx">
+    <EmbeddedResource Include="android\whatsapp\clip.resx">
       <DependentUpon>clip.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="contactoan.resx">
+    <EmbeddedResource Include="android\configuracion\contactoan.resx">
       <DependentUpon>contactoan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="nombre.resx">
+    <EmbeddedResource Include="android\whatsapp\nombre.resx">
       <DependentUpon>nombre.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="documentosan.resx">
+    <EmbeddedResource Include="android\whatsapp\documentosan.resx">
       <DependentUpon>documentosan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="encuestaan.resx">
+    <EmbeddedResource Include="android\whatsapp\encuestaan.resx">
       <DependentUpon>encuestaan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="enviarfotosan.resx">
+    <EmbeddedResource Include="android\whatsapp\enviarfotosan.resx">
       <DependentUpon>enviarfotosan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="galeriaan.resx">
+    <EmbeddedResource Include="android\whatsapp\galeriaan.resx">
       <DependentUpon>galeriaan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="iphone\whatsapp\fijarfondo.resx">
@@ -441,7 +441,7 @@
     <EmbeddedResource Include="iphone\whatsapp\compartircontactosselect.resx">
       <DependentUpon>compartircontactosselect.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="correccion.resx">
+    <EmbeddedResource Include="android\whatsapp\correccion.resx">
       <DependentUpon>correccion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="iphone\whatsapp\abrirdocumento.resx">
@@ -471,7 +471,7 @@
     <EmbeddedResource Include="iphone\whatsapp\documentos.resx">
       <DependentUpon>documentos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="android\elegirappandroid.resx">
+    <EmbeddedResource Include="android\whatsapp\elegirappandroid.resx">
       <DependentUpon>elegirappandroid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="iphone\elegirappiphone.resx">
@@ -528,7 +528,7 @@
     <EmbeddedResource Include="iphone\whatsapp\persona.resx">
       <DependentUpon>persona.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="nombreabajo.resx">
+    <EmbeddedResource Include="android\whatsapp\nombreabajo.resx">
       <DependentUpon>nombreabajo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -568,16 +568,16 @@
     <EmbeddedResource Include="iphone\whatsapp\vaciarchat.resx">
       <DependentUpon>vaciarchat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="puntos.resx">
+    <EmbeddedResource Include="android\whatsapp\puntos.resx">
       <DependentUpon>puntos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="silenciaran.resx">
+    <EmbeddedResource Include="android\whatsapp\silenciaran.resx">
       <DependentUpon>silenciaran.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="sticker.resx">
+    <EmbeddedResource Include="android\whatsapp\sticker.resx">
       <DependentUpon>sticker.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ubicacionan.resx">
+    <EmbeddedResource Include="android\whatsapp\ubicacionan.resx">
       <DependentUpon>ubicacionan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
