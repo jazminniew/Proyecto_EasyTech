@@ -12,7 +12,8 @@ namespace pruebaeasytech3
 {
     public partial class homewspp : Form
     {
-        private string valorRecibido;
+         string valorRecibido;
+        
             
         public homewspp(string valorindice)
         {
@@ -25,89 +26,7 @@ namespace pruebaeasytech3
          private void homewspp_Load(object sender, EventArgs e)
          {
 
-             if (valorRecibido == "videollamada")
-             {
-                 lbl1.Text = "Que boton hace que puedas hacer una videollamada?";
-
-             }
-             if (valorRecibido == "llamada")
-             {
-                 lbl1.Text = "Que boton hace que puedas hacer una llamada?";
-             }
-             if (valorRecibido == "camara")
-             {
-                 lbl1.Text = "Que boton hace que puedas entrar a la camara?";
-             }
-             if (valorRecibido == "fotosvideos")
-             {
-                 lbl1.Text = "Que boton hace que puedas ver tus fotos y videos?";
-             }
-             if (valorRecibido == "documentos")
-             {
-                 lbl1.Text = "Que boton sirve para ver tus documentos?";
-             }
-             if (valorRecibido == "ubicacion")
-             {
-                 lbl1.Text = "Que boton cumple la funcion de enviar una ubicacion?";
-             }
-             if (valorRecibido == "contacto")
-             {
-                 lbl1.Text = "Que boton sirve para enviar un contacto?";
-             }
-             if (valorRecibido == "encuesta")
-             {
-                 lbl1.Text = "Que boton sirve para enviar una encuesta?";
-             }
-             if (valorRecibido == "sticker")
-             {
-                 lbl1.Text = "Que boton sirve para enviar un sticker?";
-             }
-             if (valorRecibido == "audio")
-             {
-                 lbl1.Text = "Que boton sirve para enviar un audio?";
-             }
-             if (valorRecibido == "buscar")
-             {
-                 lbl1.Text = "Que boton buscar un mensaje?";
-             }
-
-             if (valorRecibido == "archivos")
-             {
-                 lbl1.Text = "Que boton sirve para enviar un archivo?";
-             }
-
-             if (valorRecibido == "enclances")
-             {
-                 lbl1.Text = "Que boton tocarias para ver los enclances enviados?";
-             }
-             if (valorRecibido == "docs")
-             {
-                 lbl1.Text = "Que boton tocarias para ver los documentos enviados?";
-             }
-             if (valorRecibido == "destacados")
-             {
-                 lbl1.Text = "Que boton tocarias para ver los mensajes destacados?";
-             }
-             if (valorRecibido == "silenciar")
-             {
-                 lbl1.Text = "Que boton tocarias para ver silenciar el chat?";
-             }
-             if (valorRecibido == "fondopantalla")
-             {
-                 lbl1.Text = "Que boton tocarias para ver cambiar el fondo de tu pantalla?";
-             }
-             if (valorRecibido == "guardarfoto")
-             {
-                 lbl1.Text = "Que boton tocarias cambiar cuando se guardan tus fotos?";
-             }
-             if (valorRecibido == "bloquear")
-             {
-                 lbl1.Text = "Que boton tocarias para bloquear el chat?";
-             }
-             if (valorRecibido == "vaciar")
-             {
-                   lbl1.Text = "Que boton tocarias para vaciar el chat?";
-             }
+            
              
 
            }
@@ -118,13 +37,13 @@ namespace pruebaeasytech3
             
             if (valorRecibido == "videollamada")
             {
-                formcorrecto ventana = new formcorrecto("videollamada");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("videollamada");
+                formincorrecto ventana = new formincorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
             }
@@ -140,13 +59,13 @@ namespace pruebaeasytech3
         {
             if (valorRecibido == "llamada")
             {
-                formcorrecto ventana = new formcorrecto("llamada");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("llamada");
+                formincorrecto ventana = new formincorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
             }
@@ -157,13 +76,13 @@ namespace pruebaeasytech3
             if (valorRecibido == "camara")
             {
                 
-                formcorrecto ventana = new formcorrecto("camara");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("camara");
+                formincorrecto ventana = new formincorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
             }
@@ -226,9 +145,11 @@ namespace pruebaeasytech3
             if (valorRecibido == "buscar")
             {
                 valorRecibido = "BUSCAR";
-                formcorrecto ventana = new formcorrecto("BUSCAR");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
+                formincorrecto ventanaa = new formincorrecto(valorRecibido);              
+
             }
             else if (valorRecibido == "destacados")
             {
@@ -236,72 +157,172 @@ namespace pruebaeasytech3
                 formcorrecto ventana = new formcorrecto("DESTACADOS");
                 ventana.Show();
                 this.Hide();
+                formincorrecto ventanaa = new formincorrecto(valorRecibido);
             }
 
             else if (valorRecibido == "silenciar")
             {
                 valorRecibido = "SILENCIAR";
-                formcorrecto ventana = new formcorrecto("SILENCIAR");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
+                formincorrecto ventanaa = new formincorrecto(valorRecibido);
             }
             else if (valorRecibido == "guardarfoto")
             {
                 valorRecibido = "GUARDARFOTO";
-                formcorrecto ventana = new formcorrecto("GUARDARFOTO");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
+                formincorrecto ventanaa = new formincorrecto(valorRecibido);
             }
             else if (valorRecibido == "archivos")
             {
                 valorRecibido = "ARCHIVOS";
-                formcorrecto ventana = new formcorrecto("ARCHIVOS");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
+                formincorrecto ventanaa = new formincorrecto(valorRecibido);
             }
             else if (valorRecibido == "enclances")
             {
                 valorRecibido = "ENCLANCES";
-                formcorrecto ventana = new formcorrecto("ENCLANCES");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
+                formincorrecto ventanaa = new formincorrecto(valorRecibido);
             }
 
             else if (valorRecibido == "vaciar")
             {
                  valorRecibido = "VACIAR";
-                formcorrecto ventana = new formcorrecto("VACIAR");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
+                formincorrecto ventanaa = new formincorrecto(valorRecibido);
             }
             else if (valorRecibido == "bloquear")
             {
                 valorRecibido = "BLOQUEAR";
-                formcorrecto ventana = new formcorrecto("BLOQUEAR");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
+                formincorrecto ventanaa = new formincorrecto(valorRecibido);
             }
             else if (valorRecibido == "fondopantalla")
             {
                 valorRecibido = "FONDOPANTALLA";
-                formcorrecto ventana = new formcorrecto("FONDOPANTALLA");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
+                formincorrecto ventanaa = new formincorrecto(valorRecibido);
             }
             else if (valorRecibido == "docs")
             {
                 valorRecibido = "DOCS";
-                formcorrecto ventana = new formcorrecto("DOCS");
+                formcorrecto ventana = new formcorrecto(valorRecibido);
                 ventana.Show();
                 this.Hide();
+                formincorrecto ventanaa = new formincorrecto(valorRecibido);
             }
             else
             {
-                formincorrecto ventana = new formincorrecto("DOCS");
+                formincorrecto ventana = new formincorrecto("");
                 ventana.Show();
                 this.Hide();
             }
            
+        }
+
+        private void lbl1_Click(object sender, EventArgs e)
+        {
+            if (valorRecibido == "videollamada")
+            {
+                lbl1.Text = "Que boton hace que puedas hacer una videollamada?";
+
+            }
+            else if (valorRecibido == "llamada")
+            {
+                lbl1.Text = "Que boton hace que puedas hacer una llamada?";
+            }
+            else if (valorRecibido == "camara")
+            {
+                lbl1.Text = "Que boton hace que puedas entrar a la camara?";
+            }
+            else if (valorRecibido == "fotosvideos")
+            {
+                lbl1.Text = "Que boton hace que puedas ver tus fotos y videos?";
+            }
+            else if (valorRecibido == "documentos")
+            {
+                lbl1.Text = "Que boton sirve para ver tus documentos?";
+            }
+            else if (valorRecibido == "ubicacion")
+            {
+                lbl1.Text = "Que boton cumple la funcion de enviar una ubicacion?";
+            }
+            else if (valorRecibido == "contacto")
+            {
+                lbl1.Text = "Que boton sirve para enviar un contacto?";
+            }
+            else if (valorRecibido == "encuesta")
+            {
+                lbl1.Text = "Que boton sirve para enviar una encuesta?";
+            }
+            else if (valorRecibido == "sticker")
+            {
+                lbl1.Text = "Que boton sirve para enviar un sticker?";
+            }
+            else if (valorRecibido == "audio")
+            {
+                lbl1.Text = "Que boton sirve para enviar un audio?";
+            }
+            else if (valorRecibido == "buscar")
+            {
+                lbl1.Text = "Que boton buscar un mensaje?";
+            }
+
+            else if (valorRecibido == "archivos")
+            {
+                lbl1.Text = "Que boton sirve para enviar un archivo?";
+            }
+
+            else if (valorRecibido == "enclances")
+            {
+                lbl1.Text = "Que boton tocarias para ver los enclances enviados?";
+            }
+            else if (valorRecibido == "docs")
+            {
+                lbl1.Text = "Que boton tocarias para ver los documentos enviados?";
+            }
+            else if (valorRecibido == "destacados")
+            {
+                lbl1.Text = "Que boton tocarias para ver los mensajes destacados?";
+            }
+            else if (valorRecibido == "silenciar")
+            {
+                lbl1.Text = "Que boton tocarias para ver silenciar el chat?";
+            }
+            else if (valorRecibido == "fondopantalla")
+            {
+                lbl1.Text = "Que boton tocarias para ver cambiar el fondo de tu pantalla?";
+            }
+            else if (valorRecibido == "guardarfoto")
+            {
+                lbl1.Text = "Que boton tocarias cambiar cuando se guardan tus fotos?";
+            }
+            else if (valorRecibido == "bloquear")
+            {
+                lbl1.Text = "Que boton tocarias para bloquear el chat?";
+            }
+            else if (valorRecibido == "vaciar")
+            {
+                lbl1.Text = "Que boton tocarias para vaciar el chat?";
+            }
+            else
+            {
+                lbl1.Text = "FUNCIONA";
+            }
         }
     }
 }

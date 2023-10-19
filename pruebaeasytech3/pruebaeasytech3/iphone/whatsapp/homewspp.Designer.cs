@@ -49,6 +49,7 @@ namespace pruebaeasytech3
             this.lbl1.Size = new System.Drawing.Size(601, 29);
             this.lbl1.TabIndex = 0;
             this.lbl1.Text = "Toca el boton que creas que va a cumplir la funcion:";
+            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
             // 
             // btnmas
             // 

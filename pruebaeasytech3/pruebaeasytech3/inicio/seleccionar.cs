@@ -17,19 +17,24 @@ namespace pruebaeasytech3
         {
             InitializeComponent();
         }
-        int count = -1;
+        int count = 0;
         private void btnright1_Click(object sender, EventArgs e)
         {
-            if(count < 25)
+            count++;
+            if (count == imageListiphone.Images.Count)
             {
-                count++;
-            }            
+                count = 0;
+            }
             pcbiphone.Image = imageListiphone.Images[count]; //HAY UN ERROR PORQUE CUANDO SE TERMINAN LAS FOTOS NO VUELVE A EMPEZAR Y SE CIERRA
         }
 
         private void btnleft1_Click(object sender, EventArgs e)
         {
-            if(count > 0)
+            if (count == 0)
+            {
+                count = imageListiphone.Images.Count-1;
+            }
+            else
             {
                 count--;
             }
@@ -38,20 +43,25 @@ namespace pruebaeasytech3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (count < 25)
+            count++;
+            if (count == imageListandroid.Images.Count)
             {
-                count++;
+                count = 0;
             }
-            pcbandroid.Image = imageListiphone.Images[count];
+            pcbandroid.Image = imageListandroid.Images[count];
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (count > 0)
+            if (count == 0)
+            {
+                count = imageListandroid.Images.Count - 1;
+            }
+            else
             {
                 count--;
             }
-            pcbandroid.Image = imageListiphone.Images[count];
+            pcbandroid.Image = imageListandroid.Images[count];
         }
 
         private void btnsiguienteiphone_Click(object sender, EventArgs e)
