@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     static class Program
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     partial class seleccionar
     {
@@ -123,6 +123,7 @@ namespace pruebaeasytech3
             this.pcbandroid.Size = new System.Drawing.Size(185, 230);
             this.pcbandroid.TabIndex = 6;
             this.pcbandroid.TabStop = false;
+            this.pcbandroid.Click += new System.EventHandler(this.pcbandroid_Click);
             // 
             // imageListandroid
             // 

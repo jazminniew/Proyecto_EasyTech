@@ -1,5 +1,5 @@
 ﻿
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     partial class vaciarchat
     {
@@ -12,14 +12,7 @@ namespace pruebaeasytech3
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        
 
         #region Windows Form Designer generated code
 

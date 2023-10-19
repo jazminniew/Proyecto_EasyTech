@@ -1,5 +1,5 @@
 ﻿
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     partial class tocafondo
     {

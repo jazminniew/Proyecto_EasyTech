@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     public partial class ubicacion : Form
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     partial class compartircontactos
     {
@@ -50,6 +50,7 @@ namespace pruebaeasytech3
             this.Controls.Add(this.button1);
             this.Name = "compartircontactos";
             this.Text = "compartircontactos";
+            this.Load += new System.EventHandler(this.compartircontactos_Load);
             this.ResumeLayout(false);
 
         }

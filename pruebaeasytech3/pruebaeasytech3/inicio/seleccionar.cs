@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     public partial class seleccionar : Form
     {
@@ -90,6 +90,11 @@ namespace pruebaeasytech3
             ayuda ventana = new ayuda();
             ventana.Show();
             this.Hide();
+        }
+
+        private void pcbandroid_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     partial class camaraan
     {
@@ -50,6 +50,7 @@ namespace pruebaeasytech3
             this.Controls.Add(this.btnfoto);
             this.Name = "camaraan";
             this.Text = "camaraan";
+            this.Load += new System.EventHandler(this.camaraan_Load);
             this.ResumeLayout(false);
 
         }

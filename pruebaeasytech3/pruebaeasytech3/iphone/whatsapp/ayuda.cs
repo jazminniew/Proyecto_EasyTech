@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     public partial class ayuda : Form
     {
@@ -22,6 +22,11 @@ namespace pruebaeasytech3
             seleccionar ventana = new seleccionar();
             ventana.Show();
             this.Hide();
+        }
+
+        private void ayuda_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

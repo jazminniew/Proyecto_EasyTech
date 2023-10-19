@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     public partial class camaraan : Form
 
@@ -40,6 +40,10 @@ namespace pruebaeasytech3
             }
         }
 
+        private void camaraan_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

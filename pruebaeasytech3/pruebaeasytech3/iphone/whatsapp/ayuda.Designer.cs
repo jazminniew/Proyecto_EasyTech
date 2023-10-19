@@ -1,5 +1,5 @@
 ﻿
-namespace pruebaeasytech3
+namespace PROYECTO_FINAL_TIC_3RO
 {
     partial class ayuda
     {
@@ -62,6 +62,7 @@ namespace pruebaeasytech3
             this.Controls.Add(this.lblayuda);
             this.Name = "ayuda";
             this.Text = "ayuda";
+            this.Load += new System.EventHandler(this.ayuda_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
