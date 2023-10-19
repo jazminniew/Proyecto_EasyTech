@@ -25,7 +25,7 @@ namespace pruebaeasytech3
             {
                 count = 0;
             }
-            pcbiphone.Image = imageListiphone.Images[count]; //HAY UN ERROR PORQUE CUANDO SE TERMINAN LAS FOTOS NO VUELVE A EMPEZAR Y SE CIERRA
+            pcbiphone.Image = imageListiphone.Images[count];
         }
 
         private void btnleft1_Click(object sender, EventArgs e)

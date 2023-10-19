@@ -16,7 +16,6 @@ namespace pruebaeasytech3
         public static string valorindice;
 
         public IND_whatsappiphone()
-         
         {
             InitializeComponent();
             
