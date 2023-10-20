@@ -347,7 +347,241 @@ namespace PROYECTO_FINAL_TIC_3RO
 
                     correctAnswer = 3;
                     break;
+
+                case 31:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "fotos y videos";
+                    button2.Text = "archivos";
+                    button3.Text = "audios";
+
+                    correctAnswer = 2;
+                    break;
+
+                case 32:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "archivos";
+                    button2.Text = "mensajes destacados";
+                    button3.Text = "camara";
+
+                    correctAnswer = 1;
+                    break;
+
+                case 33:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "archivos";
+                    button2.Text = "camara";
+                    button3.Text = "encuesta";
+
+                    correctAnswer = 3;
+                    break;
+
+                case 34:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "archivos";
+                    button2.Text = "encuesta";
+                    button3.Text = "fotos y videos";
+
+                    correctAnswer = 1;
+                    break;
+
+                case 35:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "archivos";
+                    button2.Text = "encuesta";
+                    button3.Text = "fotos y videos";
+
+                    correctAnswer = 2;
+                    break;
+
+                case 36:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "audio";
+                    button2.Text = "fotos y videos";
+                    button3.Text = "videollamada";
+                    correctAnswer = 2;
+                    break;
+
+
+                case 37:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "videollamada";
+                    button2.Text = "mensajes destacados";
+                    button3.Text = "fotos y videos";
+
+                    correctAnswer = 3;
+                    break;
+
+                case 38:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "llamada";
+                    button2.Text = "encuesta";
+                    button3.Text = "fotos y videos";
+
+                    correctAnswer = 3;
+                    break;
+
+                case 39:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "documentos";
+                    button2.Text = "ubicacion";
+                    button3.Text = "contactos";
+
+                    correctAnswer = 1;
+                    break;
+                case 40:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "encuesta";
+                    button2.Text = "camara";
+                    button3.Text = "documentos";
+
+                    correctAnswer = 3;
+                    break;
+                case 41:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "documentos";
+                    button2.Text = "contactos";
+                    button3.Text = "fotos y videos";
+
+                    correctAnswer = 1;
+                    break;
+
+                case 42:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "ubicacion";
+                    button2.Text = "contactos";
+                    button3.Text = "documentos";
+
+                    correctAnswer = 1;
+                    break;
+
+                case 43:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "fotos y videos";
+                    button2.Text = "contactos";
+                    button3.Text = "ubicacion";
+
+                    correctAnswer = 3;
+                    break;
+
+                case 44:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "videollamada";
+                    button2.Text = "buscar";
+                    button3.Text = "llamada";
+
+                    correctAnswer = 2;
+                    break;
+
+                case 45:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "mensajes destacados";
+                    button2.Text = "guardar en fotos";
+                    button3.Text = "buscar";
+
+                    correctAnswer = 3;
+                    break;
+
+                case 46:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "mensajes destacados";
+                    button2.Text = "silenciar";
+                    button3.Text = "guardar en fotos";
+
+                    correctAnswer = 1;
+                    break;
+
+                case 47:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "guardar en fotos";
+                    button2.Text = "mensajes destacados";
+                    button3.Text = "mensajes temporales";
+
+                    correctAnswer = 3;
+                    break;
+                case 48:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "silenciar";
+                    button2.Text = "mensajes destacados";
+                    button3.Text = "mensajes temporales";
+
+                    correctAnswer = 1;
+                    break;
+                case 49:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "fondo de pantalla";
+                    button2.Text = "mensajes destacados";
+                    button3.Text = "silenciar";
+
+                    correctAnswer = 3;
+                    break;
+
+                case 50:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "fondo de pantalla";
+                    button2.Text = "silenciar";
+                    button3.Text = "guardar en fotos";
+
+                    correctAnswer = 2;
+                    break;
+                case 51:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "silenciar";
+                    button2.Text = "llamada";
+                    button3.Text = "videollamada";
+
+                    correctAnswer = 1;
+                    break;
+                case 52:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "guardar en fotos";
+                    button2.Text = "archivos, enclaancs, docs";
+                    button3.Text = "videollamada";
+
+                    correctAnswer = 1;
+                    break;
+                case 53:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "silenciar";
+                    button2.Text = "guardar en fotos";
+                    button3.Text = "llamada";
+
+                    correctAnswer = 2;
+                    break;
+                case 54:
+
+                    lblQuestion.Text = "Cual es la respuesta correcta?";
+                    button1.Text = "guardar en fotos";
+                    button2.Text = "llamada";
+                    button3.Text = "mensajes destacados";
+
+                    correctAnswer = 1;
+                    break;
+
             }
+
         }
         private void multiplechoice_Load(object sender, EventArgs e)
         {
@@ -377,18 +611,50 @@ namespace PROYECTO_FINAL_TIC_3RO
                 askQuestion(23);
             }
 
-
+            //fotos y videos
             if (valorchoice == "fotosvideos")
             {
-                askQuestion(4);
+                askQuestion(35);
             }
+            if (valorchoice == "fotosyvideos")
+            {
+                askQuestion(36);
+            }
+            if (valorchoice == "FOTOSYVIDEOS")
+            {
+                askQuestion(37);
+            }
+            if (valorchoice == "FOTOSVIDEOS")
+            {
+                askQuestion(38);
+            }
+
+            //documentos
             if (valorchoice == "documentos")
             {
-                askQuestion(5);
+                askQuestion(39);
             }
+            if (valorchoice == "DOCUMENTOS")
+            {
+                askQuestion(40);
+            }
+            if (valorchoice == "DOCUMENTOS1")
+            {
+                askQuestion(41);
+            }
+
+            //ubicacion
             if (valorchoice == "ubicacion")
             {
                 askQuestion(6);
+            }
+            if (valorchoice == "Ubicacion")
+            {
+                askQuestion(42);
+            }
+            if (valorchoice == "UBICACION")
+            {
+                askQuestion(43);
             }
 
             //contacto
@@ -413,12 +679,20 @@ namespace PROYECTO_FINAL_TIC_3RO
                 askQuestion(30);
             }
 
-
-
+            //encuesta
             if (valorchoice == "encuesta")
             {
                 askQuestion(8);
             }
+            if (valorchoice == "ENCUESTA")
+            {
+                askQuestion(33);
+            }
+            if (valorchoice == "ENCUESTAA")
+            {
+                askQuestion(34);
+            }
+
             if (valorchoice == "sticker")
             {
                 askQuestion(9);
@@ -427,13 +701,33 @@ namespace PROYECTO_FINAL_TIC_3RO
             {
                 askQuestion(10);
             }
+
+            //buscar
             if (valorchoice == "buscar")
             {
                 askQuestion(11);
             }
+            if (valorchoice == "BUSCAR")
+            {
+                askQuestion(44);
+            }
+            if (valorchoice == "BUUSCAR")
+            {
+                askQuestion(45);
+            }
+
+            //archivos
             if (valorchoice == "archivos")
             {
                 askQuestion(12);
+            }
+            if (valorchoice == "ARCHIVOS")
+            {
+                askQuestion(31);
+            }
+            if (valorchoice == "ARCHIVOS1")
+            {
+                askQuestion(32);
             }
 
             //enclances
@@ -457,28 +751,65 @@ namespace PROYECTO_FINAL_TIC_3RO
                 askQuestion(26);
             }
 
-
-
-
             if (valorchoice == "docs")
             {
                 askQuestion(14);
             }
+
+            //destacados
             if (valorchoice == "destacados")
             {
                 askQuestion(15);
             }
+            if (valorchoice == "DESTACADOS")
+            {
+                askQuestion(46);
+            }
+            if (valorchoice == "DEESTACADOS")
+            {
+                askQuestion(47);
+             }
+
+            //silenciar
             if (valorchoice == "silenciar")
             {
-                askQuestion(16);
+                askQuestion(51);
             }
+            if (valorchoice == "SILENCIAR")
+            {
+                askQuestion(48);
+            }
+            if (valorchoice == "SIILENCIAR")
+            {
+                askQuestion(49);
+            }
+            if (valorchoice == "SIIILENCIAR")
+            {
+                askQuestion(50);
+            }
+            //
+
             if (valorchoice == "fondopantalla")
             {
                 askQuestion(17);
             }
-            if (valorchoice == "guardarfotos")
+
+            //guardar fotos
+            if (valorchoice == "guardarfoto")
             {
                 askQuestion(21);
+            }
+            if (valorchoice == "GUARDARFOTO")
+            {
+                askQuestion(52);
+            }
+            if (valorchoice == "GUUARDARFOTO")
+            {
+                askQuestion(53);
+            }
+            if (valorchoice == "GUUUARDARFOTO")
+            {
+                askQuestion(54);
             }
             if (valorchoice == "bloquear")
             {
