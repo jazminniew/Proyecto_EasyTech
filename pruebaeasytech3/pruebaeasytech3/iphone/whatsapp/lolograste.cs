@@ -22,7 +22,7 @@ namespace PROYECTO_FINAL_TIC_3RO
         private void button1_Click(object sender, EventArgs e)
         {
             
-                home ventana = new home();
+                seleccionar ventana = new seleccionar();
                 ventana.Show();
                 this.Hide();
             

@@ -1056,12 +1056,12 @@ namespace PROYECTO_FINAL_TIC_3RO
                 askQuestion(62);
             }
 
-            //ANDROID
+            //-------------------------ANDROID-------------------------------//
 
         }
 
-      
 
-      
+
+
     }
 }
