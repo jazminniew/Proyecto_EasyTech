@@ -22,8 +22,8 @@ namespace PROYECTO_FINAL_TIC_3RO
         {
             InitializeComponent();
             
-            valorchoice = valorindice; 
-            
+            valorchoice = valorindice;
+            MessageBox.Show("value: " + valorchoice);
         }
 
         private void label1_Click(object sender, EventArgs e)
