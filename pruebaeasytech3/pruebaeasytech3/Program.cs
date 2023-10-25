@@ -11,6 +11,8 @@ namespace PROYECTO_FINAL_TIC_3RO
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
+        /// 
+        public static Form lastTryForm = null;
         [STAThread]
         static void Main()
         {

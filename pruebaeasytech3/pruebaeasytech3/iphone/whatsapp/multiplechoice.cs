@@ -38,7 +38,7 @@ namespace PROYECTO_FINAL_TIC_3RO
             if (buttonTag == correctAnswer)
             {
 
-                lolograste ventana = new lolograste();
+                lolograste ventana = new lolograste(); //MAL??
                 ventana.Show();
                 this.Hide();
             }

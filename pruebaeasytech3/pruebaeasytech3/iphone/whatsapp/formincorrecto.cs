@@ -13,11 +13,12 @@ namespace PROYECTO_FINAL_TIC_3RO
     public partial class formincorrecto : Form
     {
         public string valorincorrecto;
-        public string valorincorrecto1;
-        public formincorrecto(string valorindice, string valorRecibido)
+        public string valorincoorrectopasos;
+        public formincorrecto(string valorindice, string valorRecibido = "")
         {
             InitializeComponent();
-            valorincorrecto = valorRecibido;
+            valorincorrecto = valorindice;//CORREGIR ESTOOOO
+            //valorincorrectopasos = valorRecibido; COMO HAGO PARA PONER UN VALOR RECIBIDO TIPO VALOR INCORRECTO OTRO VALOR
             
         }
         public int Interval { get; private set; }
@@ -462,7 +463,7 @@ namespace PROYECTO_FINAL_TIC_3RO
             }
             else
             {
-                multiplechoice ventana = new multiplechoice("");
+                multiplechoice ventana = new multiplechoice(""); //MAL
                 ventana.Show();
                 this.Close();
             }

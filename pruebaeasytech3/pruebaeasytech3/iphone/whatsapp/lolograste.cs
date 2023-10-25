@@ -33,5 +33,12 @@ namespace PROYECTO_FINAL_TIC_3RO
         {
 
         }
+
+        private void btnvuelveaintentarlo_Click(object sender, EventArgs e)
+        {
+            Form f1 = Program.lastTryForm;
+            f1.Show();
+            Close();
+        }
     }
 }
